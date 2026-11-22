@@ -52,7 +52,7 @@ async function home(){
 
 async function information(){
  const [sv,sk]=await Promise.all([get('services'),get('skills')]);
- return[head(ui('information')),sec(ui('about'),h('p',{class:'big'},t(P.bio.long))),sec(ui('skills'),skGrid(sk||[]),'paper'),sec(ui('services'),svGrid(sv||[])),
+ return[head(ui('information')),sec(ui('about'),h('div',{class:'two'},h('div',{class:'portrait',style:'max-width:300px;margin:auto'},img('assets/profile/4-about-800.webp',P.fullNameAr||t(P.professionalName),{loading:'eager',width:800,height:800})),h('div',{},h('p',{class:'gold'},P.fullNameAr||''),h('p',{class:'big'},t(P.bio.long)),h('p',{class:'mt'},h('strong',{},ui('birthdate')+': '),t(P.birthDate))))),sec(ui('skills'),skGrid(sk||[]),'paper'),sec(ui('services'),svGrid(sv||[])),
   P.journey?.length?sec(ui('journey'),tl(P.journey)):null,P.experience?.length?sec(ui('experience'),tl(P.experience)):null]}
 
 const CS=['problem','research','strategy','planning','execution','technology','result','lessons'];
