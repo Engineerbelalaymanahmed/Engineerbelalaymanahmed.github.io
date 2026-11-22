@@ -93,7 +93,7 @@ async function social(){
 async function contact(){
  const c=P.contact,row=(l,v,href)=>h('li',{class:'row'},h('span',{class:'lab'},ui(l)),h('a',{href},v),copy(v,ui(l)));
  const blk=(title,o,cls)=>h('div',{class:'card '+cls},h('h2',{class:'h3'},title),h('ul',{class:'rows'},row('email',o.email,'mailto:'+o.email),row('phone',o.phone,'tel:'+o.whatsapp.replace(/\s/g,'')),row('whatsapp',o.whatsapp,o.whatsappUrl),o.telegram?row('telegram',o.telegram,'https://t.me/'+o.telegram.slice(1)):null));
- return[head(ui('contact')),sec(null,h('div',{class:'two'},blk(ui('professional'),c.professional,'pro'),blk(ui('personal'),c.personal,'pers'))),sec(ui('social'),h('div',{},socials(),h('p',{class:'mt'},btn(path('social'),ui('social')))))]}
+ return[head(ui('contact')),sec(null,h('div',{class:'two'},blk(ui('professional'),c.professional,'pro'),...(c.personal?[blk(ui('personal'),c.personal,'pers')]:[]))),sec(ui('social'),h('div',{},socials(),h('p',{class:'mt'},btn(path('social'),ui('social')))))]}
 
 const pages={home,information,portfolio,certifications,social,contact};
 async function render(){
