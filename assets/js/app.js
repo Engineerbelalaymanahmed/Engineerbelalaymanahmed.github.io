@@ -33,7 +33,7 @@ const cta=()=>sec(ui('ctaTitle'),h('div',{class:'cta'},btn(path('contact'),ui('c
 const grid=a=>h('div',{class:'grid'},a);
 const svGrid=sv=>grid(sv.map(s=>h('article',{class:'card'},h('h3',{},t(s.title)),h('p',{class:'mut'},t(s.text)))));
 const skGrid=sk=>grid(sk.map(g=>h('div',{class:'card'},h('h3',{},t(g.group)),chips(g.items))));
-const pkCard=p=>{const f=(p.features[lang]||p.features.en||[]),wa='https://wa.me/201026531399?text='+encodeURIComponent((lang==='ar'?'مرحبًا، أريد الاستفسار عن باقة ':'Hello, I am interested in the ')+t(p.name)+'.');return h('article',{class:'card pk'},h('h3',{},t(p.name)),h('p',{class:'price'},p.price.toLocaleString('en-US')+' '+ui('egp')),h('p',{class:'bill mut small'},ui(p.billing)),h('ul',{class:'feat'},f.map(x=>h('li',{},x))),p.adBudget?h('p',{class:'small mut'},ui('adBudget')+': '+p.adBudget.toLocaleString('en-US')+' '+ui('egp')+(p.adBudgetPeriod==='monthly'?' '+ui('monthly'):'')):null,p.estReach?h('p',{class:'small mut'},ui('estReach')+': '+p.estReach.map(n=>n.toLocaleString('en-US')).join(' - ')+' · '+ui('estImpr')+': '+p.estImpr.map(n=>n.toLocaleString('en-US')).join(' - ')):null,ext(wa,'btn sm',ui('orderWhats')))};
+const pkCard=p=>{const f=(p.features[lang]||p.features.en||[]),wa='https://wa.me/201026531399?text='+encodeURIComponent((lang==='ar'?'مرحبًا، أريد الاستفسار عن باقة ':'Hello, I am interested in the ')+t(p.name)+'.');return h('article',{class:'card pk'},h('h3',{},t(p.name)),h('p',{class:'price'},p.price.toLocaleString('en-US')+' '+ui('egp')),h('p',{class:'bill mut small'},ui(p.billing)),h('ul',{class:'feat'},f.map(x=>h('li',{},x))),p.adBudget?h('p',{class:'small mut'},ui('adBudget')+': '+p.adBudget.toLocaleString('en-US')+' '+ui('egp')+(p.adBudgetPeriod==='monthly'?' '+ui('monthly'):'')):null,p.estReach?h('p',{class:'small mut'},ui('estReach')+': '+p.estReach.map(n=>n.toLocaleString('en-US')).join(' - ')+' · '+ui('estImpr')+': '+p.estImpr.map(n=>n.toLocaleString('en-US')).join(' - ')):null,p.outcome?h('p',{class:'small mut'},ui('outcomeLbl')+': '+t(p.outcome)):null,p.audience?h('p',{class:'small mut'},ui('audienceLbl')+': '+t(p.audience)):null,ext(wa,'btn sm',ui('orderWhats')))};
 const tl=a=>h('ol',{class:'tl'},a.map(x=>h('li',{},h('b',{},t(x.title)),' ',h('span',{class:'mut'},t(x.period)),h('p',{},t(x.text)))));
 const paged=(a,card,el,n=24)=>{const go=()=>el.replaceChildren(...a.slice(0,n).map(card),...(a.length>n?[h('button',{class:'btn more',onclick:()=>{n+=24;go()}},ui('more'))]:[]));go()};
 const pcard=p=>h('a',{class:'card',href:`${path('portfolio')}?p=${encodeURIComponent(p.slug)}`},img(p.thumbnail,t(p.title)),h('h3',{},t(p.title)),h('p',{class:'mut'},t(p.shortDescription)),p.technologies?.length?chips(p.technologies.slice(0,4)):null);
@@ -97,8 +97,10 @@ async function contact(){
  return[head(ui('contact')),sec(null,h('div',{class:'two'},blk(ui('professional'),c.professional,'pro'),...(c.personal?[blk(ui('personal'),c.personal,'pers')]:[]))),sec(ui('social'),h('div',{},socials(),h('p',{class:'mt'},btn(path('social'),ui('social')))))]}
 
 async function services(){
- const [sv,pk]=await Promise.all([get('services'),get('packages')]);
- return[head(ui('services')),sec(null,svGrid(sv||[])),sec(ui('packages'),h('div',{},grid((pk||[]).map(pkCard)),h('p',{class:'small mut mt'},ui('estNote'))))]}
+ const [sv,pk,tm]=await Promise.all([get('services'),get('packages'),get('terms')]);
+ const grp=(g,tk,ik,nk)=>h('div',{class:'pkgroup'},h('h3',{class:'mt'},ui(tk)),h('p',{class:'mut'},ui(ik)),h('p',{class:'small mut'},ui(nk)),grid((pk||[]).filter(p=>p.group===g).map(pkCard)));
+ const tBlk=g=>tm&&tm[g]?h('div',{class:'card'},h('h3',{},ui(g==='foundation'?'pkFndTitle':'pkOpsTitle')),h('ul',{class:'feat'},(tm[g][lang]||tm[g].en||[]).map(x=>h('li',{},x)))):null;
+ return[head(ui('services')),sec(null,svGrid(sv||[])),sec(ui('packages'),h('div',{},grp('foundation','pkFndTitle','pkFndIntro','pkFndNote'),grp('operations','pkOpsTitle','pkOpsIntro','pkOpsNote'),h('p',{class:'small mut mt'},ui('estNote')))),tm?sec(ui('termsTitle'),h('div',{class:'two'},tBlk('foundation'),tBlk('operations'))):null]}
 
 const pages={home,services,information,portfolio,certifications,social,contact};
 async function render(){
