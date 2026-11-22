@@ -164,6 +164,7 @@
       ]
     },
     "adBudget": 2750,
+    "adBudgetPeriod": "monthly",
     "estReach": [
       11000,
       45833
@@ -201,6 +202,7 @@
       ]
     },
     "adBudget": 4125,
+    "adBudgetPeriod": "monthly",
     "estReach": [
       16500,
       68750
