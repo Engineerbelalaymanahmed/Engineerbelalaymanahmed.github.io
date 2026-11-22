@@ -12,18 +12,18 @@
       "en": [
         "Visual identity: logo, colors and usage rules",
         "Full setup of 2 platforms",
-        "6 posts plus message content",
-        "Canned replies and FAQ",
-        "1 paid campaign with monitoring",
-        "Page moderator 8 hours/day for 1 month"
+        "First-month content plan and 6 static posts",
+        "FAQ and saved replies",
+        "1 paid campaign, suggested 7-10 days",
+        "Moderator 8 hours/day for 1 month"
       ],
       "ar": [
         "هوية بصرية: شعار وألوان وقواعد استخدام",
         "تجهيز منصتين بالكامل",
-        "6 منشورات مع محتوى الرسائل",
-        "ردود جاهزة وأسئلة شائعة",
-        "حملة ممولة واحدة مع المتابعة",
-        "مودريتور للصفحة 8 ساعات يوميًا لمدة شهر"
+        "خطة محتوى للشهر الأول و6 منشورات ثابتة",
+        "أسئلة شائعة وردود محفوظة",
+        "حملة ممولة واحدة بمدة مقترحة 7-10 أيام",
+        "مودريتور 8 ساعات يوميًا لمدة شهر"
       ]
     },
     "adBudget": 1815,
@@ -48,17 +48,19 @@
     "features": {
       "en": [
         "Complete visual identity",
-        "More varied content and design",
-        "Professional client communication",
-        "Paid advertising",
-        "Page moderator for a full month"
+        "Setup of up to 3 social platforms",
+        "First-month content calendar and 10 static posts",
+        "Saved and automatic replies with clear CTAs",
+        "1 paid campaign, suggested 7-14 days",
+        "Moderator 8 hours/day for 1 month"
       ],
       "ar": [
         "هوية بصرية متكاملة",
-        "محتوى وتصميم أكثر تنوعًا",
-        "تواصل احترافي مع العملاء",
-        "إعلانات ممولة",
-        "مودريتور للصفحة طوال الشهر"
+        "تجهيز حتى 3 منصات اجتماعية",
+        "تقويم محتوى للشهر الأول و10 منشورات ثابتة",
+        "ردود محفوظة وتلقائية ودعوات واضحة للإجراء",
+        "حملة ممولة واحدة بمدة مقترحة 7-14 يومًا",
+        "مودريتور 8 ساعات يوميًا لمدة شهر"
       ]
     },
     "adBudget": 2475,
@@ -82,20 +84,22 @@
     "billing": "onetime",
     "features": {
       "en": [
-        "Web presence setup",
-        "Client automation",
-        "Content and design",
-        "Platform setup",
-        "Visual identity",
-        "Suggested campaign of 10-14 days"
+        "Extended visual identity with usage guide",
+        "Setup of up to 4 social platforms",
+        "12 static posts and reusable visual templates",
+        "Marketing landing page on a ready template",
+        "Starter reply assistant and basic automation",
+        "Launch campaign, suggested 10-14 days",
+        "Moderator 8 hours/day for 1 month"
       ],
       "ar": [
-        "تجهيز الحضور على الويب",
-        "أتمتة التعامل مع العملاء",
-        "المحتوى والتصميم",
-        "تجهيز المنصات",
-        "الهوية البصرية",
-        "حملة مقترحة من 10 إلى 14 يومًا"
+        "هوية بصرية موسعة مع دليل استخدام",
+        "تجهيز حتى 4 منصات اجتماعية",
+        "12 منشورًا ثابتًا وقوالب بصرية قابلة لإعادة الاستخدام",
+        "صفحة هبوط تسويقية بقالب جاهز",
+        "مساعد ردود أولي وأتمتة أساسية",
+        "حملة إطلاق بمدة مقترحة 10-14 يومًا",
+        "مودريتور 8 ساعات يوميًا لمدة شهر"
       ]
     },
     "adBudget": 3300,
@@ -119,22 +123,32 @@
     "billing": "onetime",
     "features": {
       "en": [
-        "Content management",
-        "Community management",
-        "Reply management",
-        "Paid advertising",
-        "Page moderator",
-        "Platform management"
+        "Management of 2 platforms with monthly publishing schedule",
+        "Monthly content plan: 8 posts and 4 story/offer materials",
+        "Community management and inquiry replies",
+        "FAQ and basic saved and automatic replies",
+        "1 monthly ad campaign with results summary",
+        "Moderator 8 hours/day for 1 month"
       ],
       "ar": [
-        "إدارة المحتوى",
-        "إدارة المجتمع",
-        "إدارة الردود",
-        "إعلانات ممولة",
-        "مودريتور للصفحة",
-        "إدارة المنصات"
+        "إدارة منصتين وتنظيم جدول النشر الشهري",
+        "خطة محتوى شهرية: 8 منشورات و4 مواد للقصص والعروض",
+        "إدارة المجتمع والرد على الاستفسارات",
+        "أسئلة شائعة وردود محفوظة وتلقائية أساسية",
+        "حملة إعلانية شهرية واحدة مع ملخص نتائج",
+        "مودريتور 8 ساعات يوميًا لمدة شهر"
       ]
-    }
+    },
+    "adBudget": 1815,
+    "adBudgetPeriod": "monthly",
+    "estReach": [
+      7260,
+      30250
+    ],
+    "estImpr": [
+      18150,
+      45375
+    ]
   },
   {
     "id": "ebaa-advanced",
@@ -147,19 +161,19 @@
     "billing": "onetime",
     "features": {
       "en": [
-        "Digital community management",
-        "Basic client communication and automation",
-        "Ads and optimization",
-        "Content and design",
-        "Digital platform management",
+        "Management of up to 3 social platforms",
+        "Monthly content plan: 12 posts and 8 story/offer materials",
+        "Digital community management and inquiry organization",
+        "Basic automation and improved inquiry intake",
+        "Monthly campaign management with monthly report and recommendations",
         "Moderator 8 hours/day for 1 month"
       ],
       "ar": [
-        "إدارة المجتمع الرقمي",
-        "التواصل والأتمتة الأساسية",
-        "الإعلانات والتحسين",
-        "المحتوى والتصميم",
-        "إدارة المنصات الرقمية",
+        "إدارة حتى 3 منصات اجتماعية",
+        "خطة محتوى شهرية: 12 منشورًا و8 مواد للقصص والعروض",
+        "إدارة المجتمع الرقمي وتنظيم الاستفسارات",
+        "أتمتة أساسية وتحسين استقبال الاستفسارات",
+        "إدارة الحملات الشهرية مع تقرير شهري وتوصيات",
         "مودريتور 8 ساعات يوميًا لمدة شهر"
       ]
     },
@@ -185,19 +199,19 @@
     "billing": "onetime",
     "features": {
       "en": [
-        "Digital platform management",
-        "Content and design",
-        "Digital community management",
-        "Client automation and experience",
-        "Ads and performance analysis",
+        "Management of up to 4 social platforms",
+        "Monthly content plan: 16 posts plus story/offer designs",
+        "Digital community management and inquiry classification",
+        "Automation and customer-experience improvement",
+        "Campaign management with detailed monthly report and monthly review meeting",
         "Moderator 8 hours/day for 1 month"
       ],
       "ar": [
-        "إدارة المنصات الرقمية",
-        "المحتوى والتصميم",
-        "إدارة المجتمع الرقمي",
-        "الأتمتة وتجربة العملاء",
-        "الإعلانات وتحليل الأداء",
+        "إدارة حتى 4 منصات اجتماعية",
+        "خطة محتوى شهرية: 16 منشورًا وتصميمات للقصص والعروض",
+        "إدارة المجتمع الرقمي وتصنيف الاستفسارات",
+        "أتمتة وتطوير تجربة العملاء",
+        "إدارة الحملات مع تقرير شهري تفصيلي واجتماع مراجعة شهري",
         "مودريتور 8 ساعات يوميًا لمدة شهر"
       ]
     },
