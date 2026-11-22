@@ -1,0 +1,60 @@
+{
+  "foundation": {
+    "ar": [
+      "ميزانية الإعلان المذكورة مخصصة للإنفاق الإعلاني، وتُستخدم وفق الخطة المتفق عليها.",
+      "أرقام الوصول ومرات الظهور تقديرية وليست ضمانًا لنتائج الحملة أو عدد العملاء والمبيعات.",
+      "خدمة المودريتور تشمل 8 ساعات يوميًا وفق جدول متفق عليه، ولا تعني التغطية على مدار 24 ساعة.",
+      "لا تشمل أي باقة إنتاج الريلز أو الفيديوهات أو التصوير أو المونتاج.",
+      "لا تشمل باقة START أو GROW إنشاء موقع أو متجر إلكتروني.",
+      "صفحة الهبوط في ELITE تعتمد على قالب جاهز. الدومين والاستضافة والاشتراكات المدفوعة والتطوير المخصص والتكاملات المتقدمة تُحدد تكلفتها بشكل منفصل.",
+      "أي أدوات خارجية مدفوعة أو خدمات طرف ثالث تُحدد تكلفتها قبل التنفيذ.",
+      "تُوضح الضرائب والفوترة في العرض والعقد النهائيين وفق المعاملة الضريبية المنطبقة."
+    ],
+    "en": [
+      "The stated ad budget is allocated to ad spend and used according to the agreed plan.",
+      "Reach and impression figures are estimates and are not a guarantee of campaign results or client and sales counts.",
+      "Moderator service includes 8 hours/day on an agreed schedule and does not mean 24/7 coverage.",
+      "No package includes reels or video production, filming, or editing.",
+      "START and GROW do not include creating a website or online store.",
+      "The ELITE landing page uses a ready template. Domain, hosting, paid subscriptions, custom development, and advanced integrations are priced separately.",
+      "Any paid external tools or third-party services are priced before execution.",
+      "Taxes and invoicing are clarified in the final offer and contract per the applicable tax treatment."
+    ]
+  },
+  "operations": {
+    "ar": [
+      "تمثل ميزانية الإعلان المضمنة 25% من السعر الشهري للباقة.",
+      "تُخصص الميزانية للإنفاق الإعلاني، وتُدار وفق الخطة المتفق عليها.",
+      "لا تمثل تقديرات الوصول ومرات الظهور ضمانًا لنتائج الحملة أو عدد العملاء أو المبيعات.",
+      "تم احتساب التقديرات باستخدام CPM افتراضي بين 40 و100 جنيه.",
+      "تم افتراض متوسط تكرار يتراوح بين 1.5 و2.5 مرة.",
+      "تختلف النتائج الفعلية وفق المنصة، والمنافسة، والمجال، والجمهور، وجودة المحتوى والإعلان، والهدف التسويقي.",
+      "الوصول يعني عدد الأشخاص أو الحسابات التي وصلت إليها الإعلانات تقديريًا، بينما مرات الظهور تعني عدد مرات عرض الإعلانات، وقد يشاهد الشخص نفسه الإعلان أكثر من مرة.",
+      "تشمل الباقات شهرًا واحدًا من خدمة المودريتور بواقع 8 ساعات عمل يوميًا وفق جدول متفق عليه، ولا تشمل تغطية على مدار 24 ساعة.",
+      "تُحدد المنصات المشمولة وأيام العمل وآلية الاستجابة والتصعيد قبل بدء التنفيذ.",
+      "لا تشمل خدمة المودريتور إتمام عمليات البيع أو المكالمات الهاتفية أو الدعم الفني المتخصص، إلا باتفاق إضافي.",
+      "تعتمد الباقات على المحتوى الكتابي والتصميمات الثابتة ومواد القصص والعروض المذكورة في كل باقة، ولا تشمل إنتاج الريلز أو الفيديوهات أو التصوير أو المونتاج.",
+      "لا تشمل ميزانية الإعلان أي اشتراكات خارجية أو خدمات مدفوعة إضافية ما لم يُنص على ذلك صراحةً.",
+      "تقتصر الأتمتة المشمولة على الأسئلة الشائعة والردود المحفوظة والتلقائية الأساسية التي تدعمها المنصة.",
+      "بناء مساعد ذكاء اصطناعي مخصص أو ربطه بنظام CRM أو قاعدة بيانات أو تكاملات API متقدمة يتطلب عرض سعر مستقلًا.",
+      "تُوضح الضرائب وطريقة الفوترة في العرض والعقد النهائيين وفق المعاملة الضريبية المنطبقة."
+    ],
+    "en": [
+      "The included ad budget equals 25% of the package's monthly price.",
+      "The budget is allocated to ad spend and managed according to the agreed plan.",
+      "Reach and impression estimates are not a guarantee of campaign results or client or sales counts.",
+      "Estimates were calculated using an assumed CPM of 40-100 EGP.",
+      "An average frequency of 1.5-2.5 was assumed.",
+      "Actual results vary by platform, competition, industry, audience, content and ad quality, and marketing objective.",
+      "Reach means the estimated number of people or accounts the ads reached; impressions mean the number of times ads were shown, and the same person may see an ad more than once.",
+      "Packages include one month of moderator service, 8 working hours/day on an agreed schedule, and do not include 24/7 coverage.",
+      "Covered platforms, working days, and the response and escalation mechanism are set before execution begins.",
+      "Moderator service does not include completing sales, phone calls, or specialized technical support unless separately agreed.",
+      "Packages rely on the written content, static designs, and story/offer materials listed in each package, and do not include reels or video production, filming, or editing.",
+      "The ad budget does not include any external subscriptions or additional paid services unless explicitly stated.",
+      "Included automation is limited to FAQ and basic saved and automatic replies supported by the platform.",
+      "Building a custom AI assistant or connecting it to a CRM, database, or advanced API integrations requires a separate quote.",
+      "Taxes and invoicing method are clarified in the final offer and contract per the applicable tax treatment."
+    ]
+  }
+}
