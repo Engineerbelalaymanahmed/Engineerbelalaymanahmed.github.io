@@ -34,7 +34,15 @@
     "estImpr": [
       18150,
       45375
-    ]
+    ],
+    "outcome": {
+      "ar": "هوية واضحة، ومنصات مجهزة، ومحتوى أولي منظم، وبداية عملية لاستقبال العملاء.",
+      "en": "A clear identity, prepared platforms, organized initial content, and a practical start to receiving clients."
+    },
+    "audience": {
+      "ar": "المشروعات الناشئة، والأنشطة المحلية، وأصحاب الخدمات الذين يحتاجون إلى بداية احترافية.",
+      "en": "New ventures, local businesses, and service providers who need a professional start."
+    }
   },
   {
     "id": "ebaa-grow",
@@ -71,7 +79,15 @@
     "estImpr": [
       24750,
       61875
-    ]
+    ],
+    "outcome": {
+      "ar": "علامة أكثر اتساقًا، وحضور أوسع، ومحتوى يساعد على بناء الثقة وتحسين فرص التواصل مع العملاء المحتملين.",
+      "en": "A more consistent brand, a wider presence, and content that builds trust and improves outreach to potential clients."
+    },
+    "audience": {
+      "ar": "الأنشطة القائمة حديثًا والمشروعات التي تريد تأسيسًا أكثر تكاملًا قبل التوسع.",
+      "en": "Recently established businesses and projects that want a more complete setup before scaling."
+    }
   },
   {
     "id": "ebaa-elite",
@@ -110,7 +126,15 @@
     "estImpr": [
       33000,
       82500
-    ]
+    ],
+    "outcome": {
+      "ar": "إطلاق متكامل يمنح علامتك مظهرًا احترافيًا، ورسائل موحدة، ومسارًا أوضح لتحويل الزوار إلى عملاء محتملين.",
+      "en": "A complete launch giving your brand a professional look, unified messages, and a clearer path to turn visitors into potential clients."
+    },
+    "audience": {
+      "ar": "العلامات التجارية التي تحتاج إلى إطلاق منظم يشمل الهوية والمنصات والمحتوى وصفحة هبوط تسويقية.",
+      "en": "Brands that need an organized launch covering identity, platforms, content, and a marketing landing page."
+    }
   },
   {
     "id": "ebaa-essential",
@@ -120,7 +144,7 @@
       "ar": "EBAA ESSENTIAL"
     },
     "price": 7260,
-    "billing": "onetime",
+    "billing": "monthlyContinue",
     "features": {
       "en": [
         "Management of 2 platforms with monthly publishing schedule",
@@ -148,7 +172,15 @@
     "estImpr": [
       18150,
       45375
-    ]
+    ],
+    "outcome": {
+      "ar": "حضور منتظم، ومحتوى متجدد، وإدارة أفضل للتفاعل والاستفسارات، مع متابعة أساسية لأداء الإعلانات.",
+      "en": "A steady presence, refreshed content, and better management of engagement and inquiries, with basic ad performance follow-up."
+    },
+    "audience": {
+      "ar": "الأنشطة الصغيرة والمتوسطة التي تحتاج إلى إدارة مستمرة دون توسع كبير في حجم المحتوى أو عدد المنصات.",
+      "en": "Small and medium businesses that need ongoing management without major expansion in content volume or platform count."
+    }
   },
   {
     "id": "ebaa-advanced",
@@ -158,7 +190,7 @@
       "ar": "EBAA ADVANCED"
     },
     "price": 11000,
-    "billing": "onetime",
+    "billing": "monthlyContinue",
     "features": {
       "en": [
         "Management of up to 3 social platforms",
@@ -186,7 +218,15 @@
     "estImpr": [
       27500,
       68750
-    ]
+    ],
+    "outcome": {
+      "ar": "محتوى أكثر تنوعًا، وإدارة أكثر تنظيمًا للتفاعل، ومتابعة أفضل لكفاءة الحملات، وفرص أوضح لتحسين استقبال العملاء المحتملين.",
+      "en": "More varied content, more organized engagement management, better campaign-efficiency follow-up, and clearer opportunities to improve lead intake."
+    },
+    "audience": {
+      "ar": "الأنشطة التي تمتلك حضورًا رقميًا قائمًا وتريد تطوير المحتوى والإعلانات والتواصل مع الجمهور بصورة أكثر انتظامًا.",
+      "en": "Businesses with an existing digital presence that want to develop content, ads, and audience communication more consistently."
+    }
   },
   {
     "id": "ebaa-premium",
@@ -196,7 +236,7 @@
       "ar": "EBAA PREMIUM"
     },
     "price": 16500,
-    "billing": "onetime",
+    "billing": "monthlyContinue",
     "features": {
       "en": [
         "Management of up to 4 social platforms",
@@ -224,6 +264,14 @@
     "estImpr": [
       41250,
       103125
-    ]
+    ],
+    "outcome": {
+      "ar": "إدارة رقمية أكثر تكاملًا، ورؤية أوضح للأداء، وتحسين مستمر في المحتوى والحملات وتجربة استقبال العملاء.",
+      "en": "More integrated digital management, a clearer view of performance, and continuous improvement in content, campaigns, and client intake experience."
+    },
+    "audience": {
+      "ar": "العلامات التجارية التي تمتلك حضورًا رقميًا قائمًا وتحتاج إلى إدارة موسعة للمحتوى والمجتمع الرقمي والإعلانات وتحليل النتائج.",
+      "en": "Brands with an existing digital presence that need expanded management of content, community, ads, and results analysis."
+    }
   }
 ]
