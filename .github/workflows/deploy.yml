@@ -13,7 +13,7 @@ jobs:
       - run: node scripts/validate.mjs
       - run: bash scripts/generate-pages.sh
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with: { path: . }
       - id: d
         uses: actions/deploy-pages@v4
