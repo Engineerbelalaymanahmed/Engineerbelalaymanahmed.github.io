@@ -23,7 +23,7 @@ const chips=a=>h('ul',{class:'tags'},a.map(x=>h('li',{class:'tag'},t(x))));
 const logo=()=>h('div',{class:'plate'},img('assets/branding/logo-900.webp',t(P.professionalName)+' logo',{width:900,height:600}));
 const socials=()=>h('ul',{class:'soc'},S.filter(s=>s.featured).map(s=>h('li',{},ext(s.url,null,h('span',{class:'sr'},s.platform),h('span',{class:'mono','aria-hidden':'true'},s.icon)))));
 const copy=(txt,label)=>{const b=h('button',{class:'btn sm','aria-label':`${ui('copy')} ${label}`,onclick:async()=>{try{await navigator.clipboard.writeText(txt);b.textContent=ui('copied');D.getElementById('st').textContent=ui('copied')}catch{b.textContent='!'}setTimeout(()=>{b.textContent=ui('copy');D.getElementById('st').textContent=''},1600)}},ui('copy'));return b};
-const NAV=['home','information','portfolio','certifications','social','contact'];
+const NAV=['home','services','information','portfolio','certifications','social','contact'];
 const header=()=>h('div',{class:'wrap bar'},h('a',{class:'brand',href:path('home')},t(P.professionalName)),
  h('nav',{'aria-label':'Main'},NAV.map(p=>h('a',{href:path(p),'aria-current':p===PAGE?'page':null},ui(p)))),
  h('button',{id:'lt',class:'btn sm',lang:lang==='en'?'ar':'en',onclick:async()=>{lang=lang==='en'?'ar':'en';ls('lang',lang);await render();D.getElementById('lt')?.focus()}},lang==='en'?'العربية':'English'));
@@ -33,6 +33,7 @@ const cta=()=>sec(ui('ctaTitle'),h('div',{class:'cta'},btn(path('contact'),ui('c
 const grid=a=>h('div',{class:'grid'},a);
 const svGrid=sv=>grid(sv.map(s=>h('article',{class:'card'},h('h3',{},t(s.title)),h('p',{class:'mut'},t(s.text)))));
 const skGrid=sk=>grid(sk.map(g=>h('div',{class:'card'},h('h3',{},t(g.group)),chips(g.items))));
+const pkCard=p=>{const f=(p.features[lang]||p.features.en||[]),wa='https://wa.me/201026531399?text='+encodeURIComponent((lang==='ar'?'مرحبًا، أريد الاستفسار عن باقة ':'Hello, I am interested in the ')+t(p.name)+'.');return h('article',{class:'card pk'},h('h3',{},t(p.name)),h('p',{class:'price'},p.price.toLocaleString('en-US')+' '+ui('egp')),h('p',{class:'bill mut small'},ui(p.billing)),h('ul',{class:'feat'},f.map(x=>h('li',{},x))),p.adBudget?h('p',{class:'small mut'},ui('adBudget')+': '+p.adBudget.toLocaleString('en-US')+' '+ui('egp')+(p.billing==='monthly'?' '+ui('monthly'):'')):null,p.estReach?h('p',{class:'small mut'},ui('estReach')+': '+p.estReach.map(n=>n.toLocaleString('en-US')).join(' - ')+' · '+ui('estImpr')+': '+p.estImpr.map(n=>n.toLocaleString('en-US')).join(' - ')):null,ext(wa,'btn sm',ui('orderWhats')))};
 const tl=a=>h('ol',{class:'tl'},a.map(x=>h('li',{},h('b',{},t(x.title)),' ',h('span',{class:'mut'},t(x.period)),h('p',{},t(x.text)))));
 const paged=(a,card,el,n=24)=>{const go=()=>el.replaceChildren(...a.slice(0,n).map(card),...(a.length>n?[h('button',{class:'btn more',onclick:()=>{n+=24;go()}},ui('more'))]:[]));go()};
 const pcard=p=>h('a',{class:'card',href:`${path('portfolio')}?p=${encodeURIComponent(p.slug)}`},img(p.thumbnail,t(p.title)),h('h3',{},t(p.title)),h('p',{class:'mut'},t(p.shortDescription)),p.technologies?.length?chips(p.technologies.slice(0,4)):null);
@@ -93,9 +94,13 @@ async function social(){
 async function contact(){
  const c=P.contact,row=(l,v,href)=>h('li',{class:'row'},h('span',{class:'lab'},ui(l)),h('a',{href},v),copy(v,ui(l)));
  const blk=(title,o,cls)=>h('div',{class:'card '+cls},h('h2',{class:'h3'},title),h('ul',{class:'rows'},row('email',o.email,'mailto:'+o.email),row('phone',o.phone,'tel:'+o.whatsapp.replace(/\s/g,'')),row('whatsapp',o.whatsapp,o.whatsappUrl),o.telegram?row('telegram',o.telegram,'https://t.me/'+o.telegram.slice(1)):null));
- return[head(ui('contact')),sec(null,h('div',{class:'two'},blk(ui('professional'),c.professional,'pro'),blk(ui('personal'),c.personal,'pers'))),sec(ui('social'),h('div',{},socials(),h('p',{class:'mt'},btn(path('social'),ui('social')))))]}
+ return[head(ui('contact')),sec(null,h('div',{class:'two'},blk(ui('professional'),c.professional,'pro'),...(c.personal?[blk(ui('personal'),c.personal,'pers')]:[]))),sec(ui('social'),h('div',{},socials(),h('p',{class:'mt'},btn(path('social'),ui('social')))))]}
 
-const pages={home,information,portfolio,certifications,social,contact};
+async function services(){
+ const [sv,pk]=await Promise.all([get('services'),get('packages')]);
+ return[head(ui('services')),sec(null,svGrid(sv||[])),sec(ui('packages'),h('div',{},grid((pk||[]).map(pkCard)),h('p',{class:'small mut mt'},ui('estNote'))))]}
+
+const pages={home,services,information,portfolio,certifications,social,contact};
 async function render(){
  H.lang=lang;H.dir=lang==='ar'?'rtl':'ltr';const $=i=>D.getElementById(i);
  $('hdr').replaceChildren(header());
