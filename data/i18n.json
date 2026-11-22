@@ -64,7 +64,8 @@
     "estImpr": "Est. impressions",
     "orderWhats": "Order on WhatsApp",
     "estNote": "Reach and impression figures are estimates, not guarantees.",
-    "birthdate": "Date of birth"
+    "birthdate": "Date of birth",
+    "onetime": "one-time payment, renewal optional"
   },
   "ar": {
     "home": "الرئيسية",
@@ -131,6 +132,7 @@
     "estImpr": "الانطباعات التقديرية",
     "orderWhats": "اطلب عبر واتساب",
     "estNote": "أرقام الوصول والانطباعات تقديرية وليست ضمانًا.",
-    "birthdate": "تاريخ الميلاد"
+    "birthdate": "تاريخ الميلاد",
+    "onetime": "دفعة واحدة، والتجديد اختياري"
   }
 }
