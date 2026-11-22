@@ -7,9 +7,10 @@ gen(){ d="$1"; root="./"; out="index.html"; pg="home"; u=""
   if [ -n "$d" ]; then mkdir -p "$d"; root="../"; out="$d/index.html"; pg="$d"; u="$d/"; fi
   sed -e "s~{{ROOT}}~$root~g" -e "s~{{PAGE}}~$pg~g" -e "s~{{TITLE}}~$2~g" -e "s~{{DESC}}~$3~g" -e "s~{{SITE}}~$SITE~g" -e "s~{{PATH}}~$u~g" scripts/template.html > "$out"
   echo "<url><loc>${SITE}${u}</loc></url>" >> sitemap.tmp; }
-gen "" "$N - Cybersecurity and Digital Marketing" "Cybersecurity researcher in ethical hacking and OSINT, and digital marketing strategist. Building secure digital solutions."
-gen information "About - $N" "Skills, services and professional profile of cybersecurity researcher and digital marketing strategist Belal Ayman Ahmed."
-gen portfolio "Portfolio - $N" "Projects and case studies in cybersecurity research and digital marketing."
+gen "" "$N - Digital Marketing and Cybersecurity" "Digital marketing strategist and cybersecurity researcher. Social media management, paid advertising, brand building, and secure digital solutions."
+gen services "Services - $N" "Social media management services and EBAA packages by Engineer Belal Ayman Ahmed."
+gen information "About - $N" "Skills, services and professional profile of digital marketing strategist and cybersecurity researcher Belal Ayman Ahmed."
+gen portfolio "Portfolio - $N" "Projects and case studies in digital marketing, social media growth, and cybersecurity research."
 gen certifications "Certifications - $N" "Searchable gallery of professional certifications and credentials."
 gen social "Social Hub - $N" "All professional and personal accounts in one place."
 gen contact "Contact - $N" "Professional email, phone, WhatsApp and Telegram for Engineer Belal Ayman Ahmed."
