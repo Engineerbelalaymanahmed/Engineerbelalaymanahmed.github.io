@@ -12,7 +12,7 @@ gen services "Services - $N" "Social media management services and EBAA packages
 gen information "About - $N" "Skills, services and professional profile of digital marketing strategist and cybersecurity researcher Belal Ayman Ahmed."
 gen portfolio "Portfolio - $N" "Projects and case studies in digital marketing, social media growth, and cybersecurity research."
 gen certifications "Certifications - $N" "Searchable gallery of professional certifications and credentials."
-gen social "Social Hub - $N" "All professional and personal accounts in one place."
+gen social "Social Hub - $N" "All professional accounts in one place."
 gen contact "Contact - $N" "Professional email, phone, WhatsApp and Telegram for Engineer Belal Ayman Ahmed."
 printf '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s\n</urlset>\n' "$(cat sitemap.tmp)" > sitemap.xml; rm sitemap.tmp
 printf 'User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n' "$SITE" > robots.txt
