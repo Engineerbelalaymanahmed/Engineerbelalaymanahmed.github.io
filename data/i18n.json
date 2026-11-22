@@ -65,7 +65,17 @@
     "orderWhats": "Order on WhatsApp",
     "estNote": "Reach and impression figures are estimates, not guarantees.",
     "birthdate": "Date of birth",
-    "onetime": "one-time payment, renewal optional"
+    "onetime": "one-time payment, renewal optional",
+    "monthlyContinue": "monthly, paid each month you continue",
+    "pkFndTitle": "EBAA FOUNDATION | Brand Setup and Launch Packages",
+    "pkFndIntro": "We help you set up your brand, prepare your digital presence, and launch with a clear plan combining visual identity, content, platform management, and paid advertising.",
+    "pkFndNote": "All setup prices below are one-time and include a set ad budget and one month of moderator service, 8 hours/day on an agreed schedule.",
+    "pkOpsTitle": "EBAA OPERATIONS | Digital Operations and Management Packages",
+    "pkOpsIntro": "EBAA OPERATIONS packages are designed for businesses that already have an identity and digital presence and need ongoing platform operations, content development, and marketing performance improvement.",
+    "pkOpsNote": "All prices are monthly and include a set ad budget and one month of moderator service, 8 hours/day on an agreed schedule.",
+    "outcomeLbl": "Expected outcome",
+    "audienceLbl": "Best for",
+    "termsTitle": "Shared notes and terms"
   },
   "ar": {
     "home": "الرئيسية",
@@ -133,6 +143,16 @@
     "orderWhats": "اطلب عبر واتساب",
     "estNote": "أرقام الوصول والانطباعات تقديرية وليست ضمانًا.",
     "birthdate": "تاريخ الميلاد",
-    "onetime": "دفعة واحدة، والتجديد اختياري"
+    "onetime": "دفعة واحدة، والتجديد اختياري",
+    "monthlyContinue": "شهرية، تُدفع كل شهر عند الاستمرار",
+    "pkFndTitle": "EBAA FOUNDATION | باقات التأسيس والإطلاق",
+    "pkFndIntro": "نساعدك على تأسيس علامتك التجارية، وتجهيز حضورك الرقمي، والانطلاق بخطة واضحة تجمع بين الهوية البصرية، والمحتوى، وإدارة المنصات، والإعلانات المدفوعة.",
+    "pkFndNote": "جميع الأسعار التالية للتأسيس مرة واحدة، وتشمل ميزانية إعلانية محددة وشهرًا من خدمة المودريتور بواقع 8 ساعات يوميًا وفق جدول متفق عليه.",
+    "pkOpsTitle": "EBAA OPERATIONS | باقات التشغيل والإدارة",
+    "pkOpsIntro": "صُممت باقات EBAA OPERATIONS للأنشطة التي تمتلك هوية وحضورًا رقميًا وتحتاج إلى تشغيل مستمر لمنصاتها، وتطوير محتواها، وتحسين أدائها التسويقي.",
+    "pkOpsNote": "جميع الأسعار شهرية، وتشمل ميزانية إعلانية محددة وشهرًا من خدمة المودريتور بواقع 8 ساعات يوميًا وفق جدول متفق عليه.",
+    "outcomeLbl": "النتيجة المتوقعة",
+    "audienceLbl": "مناسبة لـ",
+    "termsTitle": "ملاحظات وشروط مشتركة"
   }
 }
