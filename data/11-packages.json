@@ -1,0 +1,213 @@
+[
+ {
+  "id": "ebaa-start",
+  "group": "foundation",
+  "name": {
+   "en": "EBAA START",
+   "ar": "EBAA START"
+  },
+  "price": 7260,
+  "billing": "tbc",
+  "features": {
+   "en": [
+    "Visual identity: logo, colors and usage rules",
+    "Full setup of 2 platforms",
+    "6 posts plus message content",
+    "Canned replies and FAQ",
+    "1 paid campaign with monitoring",
+    "Page moderator 8 hours/day for 1 month"
+   ],
+   "ar": [
+    "هوية بصرية: شعار وألوان وقواعد استخدام",
+    "تجهيز منصتين بالكامل",
+    "6 منشورات مع محتوى الرسائل",
+    "ردود جاهزة وأسئلة شائعة",
+    "حملة ممولة واحدة مع المتابعة",
+    "مودريتور للصفحة 8 ساعات يوميًا لمدة شهر"
+   ]
+  },
+  "adBudget": 1815,
+  "estReach": [
+   7260,
+   30250
+  ],
+  "estImpr": [
+   18150,
+   45375
+  ]
+ },
+ {
+  "id": "ebaa-grow",
+  "group": "foundation",
+  "name": {
+   "en": "EBAA GROW",
+   "ar": "EBAA GROW"
+  },
+  "price": 9900,
+  "billing": "tbc",
+  "features": {
+   "en": [
+    "Complete visual identity",
+    "More varied content and design",
+    "Professional client communication",
+    "Paid advertising",
+    "Page moderator for a full month"
+   ],
+   "ar": [
+    "هوية بصرية متكاملة",
+    "محتوى وتصميم أكثر تنوعًا",
+    "تواصل احترافي مع العملاء",
+    "إعلانات ممولة",
+    "مودريتور للصفحة طوال الشهر"
+   ]
+  },
+  "adBudget": 2475,
+  "estReach": [
+   9900,
+   41250
+  ],
+  "estImpr": [
+   24750,
+   61875
+  ]
+ },
+ {
+  "id": "ebaa-elite",
+  "group": "foundation",
+  "name": {
+   "en": "EBAA ELITE",
+   "ar": "EBAA ELITE"
+  },
+  "price": 13200,
+  "billing": "tbc",
+  "features": {
+   "en": [
+    "Web presence setup",
+    "Client automation",
+    "Content and design",
+    "Platform setup",
+    "Visual identity",
+    "Suggested campaign of 10-14 days"
+   ],
+   "ar": [
+    "تجهيز الحضور على الويب",
+    "أتمتة التعامل مع العملاء",
+    "المحتوى والتصميم",
+    "تجهيز المنصات",
+    "الهوية البصرية",
+    "حملة مقترحة من 10 إلى 14 يومًا"
+   ]
+  },
+  "adBudget": 3300,
+  "estReach": [
+   13200,
+   55000
+  ],
+  "estImpr": [
+   33000,
+   82500
+  ]
+ },
+ {
+  "id": "ebaa-essential",
+  "group": "operations",
+  "name": {
+   "en": "EBAA ESSENTIAL",
+   "ar": "EBAA ESSENTIAL"
+  },
+  "price": 7260,
+  "billing": "monthly",
+  "features": {
+   "en": [
+    "Content management",
+    "Community management",
+    "Reply management",
+    "Paid advertising",
+    "Page moderator",
+    "Platform management"
+   ],
+   "ar": [
+    "إدارة المحتوى",
+    "إدارة المجتمع",
+    "إدارة الردود",
+    "إعلانات ممولة",
+    "مودريتور للصفحة",
+    "إدارة المنصات"
+   ]
+  }
+ },
+ {
+  "id": "ebaa-advanced",
+  "group": "operations",
+  "name": {
+   "en": "EBAA ADVANCED",
+   "ar": "EBAA ADVANCED"
+  },
+  "price": 11000,
+  "billing": "monthly",
+  "features": {
+   "en": [
+    "Digital community management",
+    "Basic client communication and automation",
+    "Ads and optimization",
+    "Content and design",
+    "Digital platform management",
+    "Moderator 8 hours/day for 1 month"
+   ],
+   "ar": [
+    "إدارة المجتمع الرقمي",
+    "التواصل والأتمتة الأساسية",
+    "الإعلانات والتحسين",
+    "المحتوى والتصميم",
+    "إدارة المنصات الرقمية",
+    "مودريتور 8 ساعات يوميًا لمدة شهر"
+   ]
+  },
+  "adBudget": 2750,
+  "estReach": [
+   11000,
+   45833
+  ],
+  "estImpr": [
+   27500,
+   68750
+  ]
+ },
+ {
+  "id": "ebaa-premium",
+  "group": "operations",
+  "name": {
+   "en": "EBAA PREMIUM",
+   "ar": "EBAA PREMIUM"
+  },
+  "price": 16500,
+  "billing": "monthly",
+  "features": {
+   "en": [
+    "Digital platform management",
+    "Content and design",
+    "Digital community management",
+    "Client automation and experience",
+    "Ads and performance analysis",
+    "Moderator 8 hours/day for 1 month"
+   ],
+   "ar": [
+    "إدارة المنصات الرقمية",
+    "المحتوى والتصميم",
+    "إدارة المجتمع الرقمي",
+    "الأتمتة وتجربة العملاء",
+    "الإعلانات وتحليل الأداء",
+    "مودريتور 8 ساعات يوميًا لمدة شهر"
+   ]
+  },
+  "adBudget": 4125,
+  "estReach": [
+   16500,
+   68750
+  ],
+  "estImpr": [
+   41250,
+   103125
+  ]
+ }
+]
