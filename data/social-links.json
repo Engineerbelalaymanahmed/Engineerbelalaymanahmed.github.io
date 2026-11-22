@@ -107,35 +107,8 @@
     "platform": "Facebook",
     "url": "https://www.facebook.com/eng.belalaymanahmed",
     "username": "eng.belalaymanahmed",
-    "category": "Social",
-    "type": "personal",
+    "category": "Professional",
+    "type": "professional",
     "icon": "f"
-  },
-  {
-    "id": "instagram-personal",
-    "platform": "Instagram",
-    "url": "https://www.instagram.com/belalaymanahmed01",
-    "username": "@belalaymanahmed01",
-    "category": "Social",
-    "type": "personal",
-    "icon": "ig"
-  },
-  {
-    "id": "threads-personal",
-    "platform": "Threads",
-    "url": "https://www.threads.com/@belalaymanahmed01",
-    "username": "@belalaymanahmed01",
-    "category": "Social",
-    "type": "personal",
-    "icon": "@"
-  },
-  {
-    "id": "tiktok-personal",
-    "platform": "TikTok",
-    "url": "https://www.tiktok.com/@belalaymanahmed.01",
-    "username": "@belalaymanahmed.01",
-    "category": "Social",
-    "type": "personal",
-    "icon": "TT"
   }
 ]
