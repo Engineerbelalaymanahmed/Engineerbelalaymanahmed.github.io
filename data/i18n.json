@@ -75,7 +75,10 @@
     "pkOpsNote": "All prices are monthly and include a set ad budget and one month of moderator service, 8 hours/day on an agreed schedule.",
     "outcomeLbl": "Expected outcome",
     "audienceLbl": "Best for",
-    "termsTitle": "Shared notes and terms"
+    "termsTitle": "Shared notes and terms",
+    "paymentMethods": "Payment methods",
+    "vodafoneCash": "Vodafone Cash",
+    "instapay": "InstaPay"
   },
   "ar": {
     "home": "الرئيسية",
@@ -153,6 +156,9 @@
     "pkOpsNote": "جميع الأسعار شهرية، وتشمل ميزانية إعلانية محددة وشهرًا من خدمة المودريتور بواقع 8 ساعات يوميًا وفق جدول متفق عليه.",
     "outcomeLbl": "النتيجة المتوقعة",
     "audienceLbl": "مناسبة لـ",
-    "termsTitle": "ملاحظات وشروط مشتركة"
+    "termsTitle": "ملاحظات وشروط مشتركة",
+    "paymentMethods": "طرق استقبال الدفع",
+    "vodafoneCash": "فودافون كاش",
+    "instapay": "انستاباي"
   }
 }
