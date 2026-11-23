@@ -103,6 +103,19 @@
     "icon": "TG"
   },
   {
+    "id": "telegram-channel",
+    "platform": "Telegram",
+    "url": "https://t.me/engbelalaymanahmed",
+    "username": "@engbelalaymanahmed",
+    "category": "Communication",
+    "type": "professional",
+    "icon": "TG",
+    "description": {
+      "ar": "قناة EBAA الرسمية",
+      "en": "Official EBAA channel"
+    }
+  },
+  {
     "id": "whatsapp-pro",
     "platform": "WhatsApp Business",
     "url": "https://wa.me/201026531399",
@@ -110,6 +123,19 @@
     "category": "Communication",
     "type": "professional",
     "icon": "WA"
+  },
+  {
+    "id": "whatsapp-channel",
+    "platform": "WhatsApp Channel",
+    "url": "https://whatsapp.com/channel/0029VbDheKx4o7qVyARHsg2E",
+    "username": "EBAA",
+    "category": "Communication",
+    "type": "professional",
+    "icon": "WA",
+    "description": {
+      "ar": "القناة الرسمية",
+      "en": "Official channel"
+    }
   },
   {
     "id": "facebook-personal",
