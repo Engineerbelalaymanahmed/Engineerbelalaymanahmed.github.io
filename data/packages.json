@@ -42,7 +42,8 @@
     "audience": {
       "ar": "المشروعات الناشئة، والأنشطة المحلية، وأصحاب الخدمات الذين يحتاجون إلى بداية احترافية.",
       "en": "New ventures, local businesses, and service providers who need a professional start."
-    }
+    },
+    "image": "assets/packages/3-pk-01-start.webp"
   },
   {
     "id": "ebaa-grow",
@@ -87,7 +88,8 @@
     "audience": {
       "ar": "الأنشطة القائمة حديثًا والمشروعات التي تريد تأسيسًا أكثر تكاملًا قبل التوسع.",
       "en": "Recently established businesses and projects that want a more complete setup before scaling."
-    }
+    },
+    "image": "assets/packages/4-pk-02-grow.webp"
   },
   {
     "id": "ebaa-elite",
@@ -134,7 +136,8 @@
     "audience": {
       "ar": "العلامات التجارية التي تحتاج إلى إطلاق منظم يشمل الهوية والمنصات والمحتوى وصفحة هبوط تسويقية.",
       "en": "Brands that need an organized launch covering identity, platforms, content, and a marketing landing page."
-    }
+    },
+    "image": "assets/packages/5-pk-03-elite.webp"
   },
   {
     "id": "ebaa-essential",
@@ -180,7 +183,8 @@
     "audience": {
       "ar": "الأنشطة الصغيرة والمتوسطة التي تحتاج إلى إدارة مستمرة دون توسع كبير في حجم المحتوى أو عدد المنصات.",
       "en": "Small and medium businesses that need ongoing management without major expansion in content volume or platform count."
-    }
+    },
+    "image": "assets/packages/6-pk-04-essential.webp"
   },
   {
     "id": "ebaa-advanced",
@@ -226,7 +230,8 @@
     "audience": {
       "ar": "الأنشطة التي تمتلك حضورًا رقميًا قائمًا وتريد تطوير المحتوى والإعلانات والتواصل مع الجمهور بصورة أكثر انتظامًا.",
       "en": "Businesses with an existing digital presence that want to develop content, ads, and audience communication more consistently."
-    }
+    },
+    "image": "assets/packages/7-pk-05-advanced.webp"
   },
   {
     "id": "ebaa-premium",
@@ -272,6 +277,7 @@
     "audience": {
       "ar": "العلامات التجارية التي تمتلك حضورًا رقميًا قائمًا وتحتاج إلى إدارة موسعة للمحتوى والمجتمع الرقمي والإعلانات وتحليل النتائج.",
       "en": "Brands with an existing digital presence that need expanded management of content, community, ads, and results analysis."
-    }
+    },
+    "image": "assets/packages/8-pk-06-premium.webp"
   }
 ]
