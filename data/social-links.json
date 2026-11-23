@@ -10,6 +10,15 @@
     "featured": true
   },
   {
+    "id": "linkedin-ebaa",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/company/engineer-belal-ayman-ahmed-ebaa",
+    "username": "EBAA",
+    "category": "Professional",
+    "type": "professional",
+    "icon": "in"
+  },
+  {
     "id": "x",
     "platform": "X",
     "url": "https://x.com/Engbelalayman",
