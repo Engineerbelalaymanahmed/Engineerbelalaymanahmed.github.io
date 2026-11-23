@@ -119,5 +119,14 @@
     "category": "Professional",
     "type": "professional",
     "icon": "f"
+  },
+  {
+    "id": "facebook-hr",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/HumanResourcesEBAa",
+    "username": "EBAA HR",
+    "category": "Professional",
+    "type": "professional",
+    "icon": "f"
   }
 ]
