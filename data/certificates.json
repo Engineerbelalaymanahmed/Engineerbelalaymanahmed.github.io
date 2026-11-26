@@ -24,5 +24,58 @@
       "Blue Team Cyber Security"
     ],
     "image": "assets/certificates/cybersecurity/nti-blue-team-bootcamp.webp"
+  },
+  {
+    "id": "riyada-2030-startup-finance",
+    "title": {
+      "en": "Financial Management in Startups",
+      "ar": "الإدارة المالية في الشركات الناشئة"
+    },
+    "issuer": {
+      "en": "Ministry of Planning and Economic Development (Riyada 2030 project)",
+      "ar": "وزارة التخطيط والتنمية الاقتصادية (مشروع رواد 2030)"
+    },
+    "organizer": {
+      "en": "Riyada 2030 project, \"One Million Entrepreneurs\" campaign",
+      "ar": "مشروع رواد 2030، حملة \"المليون ريادي\""
+    },
+    "date": "",
+    "category": "Entrepreneurship & Finance",
+    "featured": false,
+    "description": {
+      "en": "Online training program in the Ministry's \"One Million Entrepreneurs\" campaign, which aims to qualify one million entrepreneurs by 2030. The program teaches the basic financial knowledge needed to start and run a startup: reading balance sheets, income statements and cash flow statements, simple startup financial planning, valuing a company concept, and how startups raise funding.",
+      "ar": "برنامج تدريبي عبر الإنترنت ضمن حملة \"المليون ريادي\" التي أطلقتها الوزارة بهدف تأهيل مليون رائد أعمال بحلول 2030. يتناول المعرفة المالية الأساسية اللازمة لبدء الشركات الناشئة وتشغيلها: قراءة الميزانيات العمومية وقوائم الدخل والتدفقات النقدية، والتخطيط المالي البسيط، وتقييم فكرة الشركة، وكيفية حصول الشركات الناشئة على التمويل."
+    },
+    "skills": [
+      "Startup financial management"
+    ],
+    "image": "assets/certificates/other/riyada-2030-startup-finance.webp"
+  },
+  {
+    "id": "hp-life-social-media-marketing",
+    "title": {
+      "en": "Social Media Marketing",
+      "ar": "التسويق عبر شبكات التواصل الاجتماعي"
+    },
+    "issuer": {
+      "en": "HP LIFE (HP Foundation)",
+      "ar": "HP LIFE (مؤسسة HP)"
+    },
+    "organizer": {
+      "en": "HP Foundation",
+      "ar": "مؤسسة HP"
+    },
+    "date": "2021-10-30",
+    "category": "Digital Marketing",
+    "featured": false,
+    "description": {
+      "en": "Free self-paced online course (up to 60 minutes) from HP LIFE. Covers using different social media platforms to promote a business and creating a Facebook advertisement targeted to customers.",
+      "ar": "دورة مجانية عبر الإنترنت ذاتية الوتيرة (حتى 60 دقيقة) من HP LIFE. تشرح كيفية استخدام منصات التواصل الاجتماعي المختلفة للترويج للأعمال وإنشاء إعلان على فيسبوك موجه للعملاء."
+    },
+    "skills": [
+      "Social media marketing",
+      "Facebook advertising"
+    ],
+    "image": "assets/certificates/digital-marketing/hp-life-social-media-marketing.webp"
   }
 ]
