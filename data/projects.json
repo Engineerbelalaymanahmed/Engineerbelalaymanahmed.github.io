@@ -1,1 +1,281 @@
-[]
+[
+  {
+    "id": "egyptian-stories",
+    "slug": "egyptian-stories",
+    "title": {
+      "en": "Egyptian Stories",
+      "ar": "إيجيبشن ستوريز"
+    },
+    "category": "Stories",
+    "shortDescription": {
+      "en": "Original short stories in Egyptian Arabic, told with illustrated characters and voiceover.",
+      "ar": "قصص قصيرة أصلية بالعامية المصرية، برسومات وتعليق صوتي."
+    },
+    "fullDescription": {
+      "en": "Original short stories in Egyptian Arabic, told with illustrated characters and voiceover. Produced under the EBAA network.",
+      "ar": "قصص قصيرة أصلية بالعامية المصرية، برسومات وتعليق صوتي. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/egyptian-stories.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@EgyptianStoriesEG",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "gameverse-arabia",
+    "slug": "gameverse-arabia",
+    "title": {
+      "en": "GameVerse Arabia",
+      "ar": "GameVerse Arabia"
+    },
+    "category": "Gaming",
+    "shortDescription": {
+      "en": "Arabic gaming channel with long videos and Shorts for gamers.",
+      "ar": "قناة ألعاب بالعربي بفيديوهات طويلة وShorts لمحبي الألعاب."
+    },
+    "fullDescription": {
+      "en": "Arabic gaming channel with long videos and Shorts for gamers. Produced under the EBAA network.",
+      "ar": "قناة ألعاب بالعربي بفيديوهات طويلة وShorts لمحبي الألعاب. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/gameverse-arabia.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@GameVerseArabia",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "future-byte",
+    "slug": "future-byte",
+    "title": {
+      "en": "Future Byte",
+      "ar": "Future Byte"
+    },
+    "category": "AI & Tech",
+    "shortDescription": {
+      "en": "Arabic videos on AI and technology, including the stories behind everyday inventions.",
+      "ar": "فيديوهات بالعربي عن الذكاء الاصطناعي والتقنية وحكايات الاختراعات اللي حواليننا."
+    },
+    "fullDescription": {
+      "en": "Arabic videos on AI and technology, including the stories behind everyday inventions. Produced under the EBAA network.",
+      "ar": "فيديوهات بالعربي عن الذكاء الاصطناعي والتقنية وحكايات الاختراعات اللي حواليننا. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/future-byte.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@FutureByteAR",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "dahka-bel-arabi",
+    "slug": "dahka-bel-arabi",
+    "title": {
+      "en": "Dahka Bel Arabi",
+      "ar": "ضحكة بالعربي"
+    },
+    "category": "Comedy",
+    "shortDescription": {
+      "en": "Arabic comedy channel with light, family-friendly videos and Shorts.",
+      "ar": "قناة كوميديا بالعربي بفيديوهات وShorts خفيفة ومناسبة للعيلة."
+    },
+    "fullDescription": {
+      "en": "Arabic comedy channel with light, family-friendly videos and Shorts. Produced under the EBAA network.",
+      "ar": "قناة كوميديا بالعربي بفيديوهات وShorts خفيفة ومناسبة للعيلة. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/dahka-bel-arabi.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@DahkaBelArabi",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "sofra-we-hekaya",
+    "slug": "sofra-we-hekaya",
+    "title": {
+      "en": "Sofra We Hekaya",
+      "ar": "سفرة وحكاية"
+    },
+    "category": "Food",
+    "shortDescription": {
+      "en": "Food channel mixing recipes and the stories behind dishes.",
+      "ar": "قناة أكل بتجمع الوصفات وحكايات الأكلات."
+    },
+    "fullDescription": {
+      "en": "Food channel mixing recipes and the stories behind dishes. Produced under the EBAA network.",
+      "ar": "قناة أكل بتجمع الوصفات وحكايات الأكلات. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/sofra-we-hekaya.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@SofraWeHekaya",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "beit-we-hayah",
+    "slug": "beit-we-hayah",
+    "title": {
+      "en": "Beit We Hayah",
+      "ar": "بيت وحياة"
+    },
+    "category": "Lifestyle",
+    "shortDescription": {
+      "en": "Lifestyle and family channel about home and everyday life.",
+      "ar": "قناة أسلوب حياة وعيلة عن البيت والحياة اليومية."
+    },
+    "fullDescription": {
+      "en": "Lifestyle and family channel about home and everyday life. Produced under the EBAA network.",
+      "ar": "قناة أسلوب حياة وعيلة عن البيت والحياة اليومية. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/beit-we-hayah.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@BeitWeHayah",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "eraf-akthar",
+    "slug": "eraf-akthar",
+    "title": {
+      "en": "Eraf Akthar",
+      "ar": "اعرف أكثر"
+    },
+    "category": "Education",
+    "shortDescription": {
+      "en": "Educational channel explaining topics clearly in Arabic.",
+      "ar": "قناة تعليمية بتشرح المواضيع بشكل واضح بالعربي."
+    },
+    "fullDescription": {
+      "en": "Educational channel explaining topics clearly in Arabic. Produced under the EBAA network.",
+      "ar": "قناة تعليمية بتشرح المواضيع بشكل واضح بالعربي. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/eraf-akthar.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@ErafAkthar",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "waraa-el-tarikh",
+    "slug": "waraa-el-tarikh",
+    "title": {
+      "en": "Waraa El Tarikh",
+      "ar": "وراء التاريخ"
+    },
+    "category": "History",
+    "shortDescription": {
+      "en": "History channel built on sourced archaeology and documented stories, such as who built the pyramids.",
+      "ar": "قناة تاريخ مبنية على آثار ومصادر موثقة، زي مين بنى الأهرامات."
+    },
+    "fullDescription": {
+      "en": "History channel built on sourced archaeology and documented stories, such as who built the pyramids. Produced under the EBAA network.",
+      "ar": "قناة تاريخ مبنية على آثار ومصادر موثقة، زي مين بنى الأهرامات. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/waraa-el-tarikh.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@WaraaElTarikh",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  },
+  {
+    "id": "rahhal-arabi",
+    "slug": "rahhal-arabi",
+    "title": {
+      "en": "Rahhal Arabi",
+      "ar": "رحّال عربي"
+    },
+    "category": "Travel",
+    "shortDescription": {
+      "en": "Arabic travel channel about places and destinations.",
+      "ar": "قناة سفر بالعربي عن الأماكن والوجهات."
+    },
+    "fullDescription": {
+      "en": "Arabic travel channel about places and destinations. Produced under the EBAA network.",
+      "ar": "قناة سفر بالعربي عن الأماكن والوجهات. إنتاج شبكة EBAA."
+    },
+    "thumbnail": "assets/projects/rahhal-arabi.webp",
+    "role": "Creator",
+    "year": "2026",
+    "featured": false,
+    "links": [
+      {
+        "url": "https://www.youtube.com/@RahhalArabiTV",
+        "label": {
+          "en": "Watch on YouTube",
+          "ar": "شاهد على يوتيوب"
+        }
+      }
+    ],
+    "type": "channel"
+  }
+]
