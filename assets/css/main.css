@@ -74,3 +74,4 @@ footer{border-top:1px solid var(--line);padding:48px 0;margin-top:0}.foot{displa
 html[lang=ar] body{font-family:'Cairo',system-ui,Tahoma,sans-serif}
 html[lang=ar] h1{line-height:1.35;letter-spacing:0}
 html[lang=ar] .lead,html[lang=ar] .big{line-height:1.9}
+.clamp3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
