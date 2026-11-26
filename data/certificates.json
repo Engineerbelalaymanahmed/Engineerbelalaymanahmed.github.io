@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "nti-blue-team-bootcamp",
+    "title": {
+      "en": "Blue Team Cyber Security Boot Camp",
+      "ar": "معسكر الأمن السيبراني للفريق الأزرق (Blue Team)"
+    },
+    "issuer": {
+      "en": "National Telecommunication Institute (NTI)",
+      "ar": "المعهد القومي للاتصالات (NTI)"
+    },
+    "organizer": {
+      "en": "Digital Egypt Youth (DEY) HireReady initiative, Ministry of Communications and Information Technology (MCIT)",
+      "ar": "مبادرة شباب مصر الرقمية - الجاهز للتوظيف (HireReady)، وزارة الاتصالات وتكنولوجيا المعلومات"
+    },
+    "date": "2026-04-01",
+    "category": "Cybersecurity",
+    "featured": true,
+    "description": {
+      "en": "A 4-month Cybersecurity track of the Digital Egypt Youth HireReady program, delivered by NTI. Training period 5 Jan to 1 Apr 2026, 540 hours, final score 91%. NTI describes its HireReady tracks as a technical program plus a soft skills program with on-job training at an industry partner.",
+      "ar": "مسار الأمن السيبراني مدته 4 شهور ضمن برنامج شباب مصر الرقمية - الجاهز للتوظيف، ينفذه المعهد القومي للاتصالات. فترة التدريب من 5 يناير إلى 1 أبريل 2026، 540 ساعة، والدرجة النهائية 91%. يصف المعهد مساراته بأنها برنامج فني وبرنامج مهارات شخصية مع تدريب عملي لدى شريك صناعي."
+    },
+    "skills": [
+      "Blue Team Cyber Security"
+    ],
+    "image": "assets/certificates/cybersecurity/nti-blue-team-bootcamp.webp"
+  }
+]
