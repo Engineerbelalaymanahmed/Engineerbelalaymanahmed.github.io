@@ -277,5 +277,55 @@
       }
     ],
     "type": "channel"
+  },
+  {
+    "id": "basma-beauty-center",
+    "slug": "basma-beauty-center",
+    "type": "project",
+    "title": {
+      "en": "Basma Beauty Center",
+      "ar": "بسمة بيوتي سنتر"
+    },
+    "category": "Identity design",
+    "shortDescription": {
+      "en": "Brand identity for a beauty center in Alexandria: logo, gradient colors and opening-offer designs.",
+      "ar": "هوية بصرية لمركز تجميل في الإسكندرية: شعار وألوان متدرجة وتصاميم عروض الافتتاح."
+    },
+    "fullDescription": {
+      "en": "Complete brand identity for Basma Beauty Center in Alexandria, Egypt. The work covers the logo, the gradient color palette, and the designs published on the center's Facebook page, including the opening offers of November 2023.",
+      "ar": "هوية بصرية كاملة لمركز بسمة بيوتي سنتر في الإسكندرية، مصر. شملت الشغل الشعار والألوان المتدرجة والتصاميم اللي اتنشرت على صفحة المركز على فيسبوك، ومنها عروض الافتتاح في نوفمبر 2023."
+    },
+    "thumbnail": "assets/projects/basma-identity.webp",
+    "gallery": [
+      "assets/projects/basma-card-1.webp",
+      "assets/projects/basma-card-2.webp",
+      "assets/projects/basma-card-3.webp"
+    ],
+    "role": "Brand identity design",
+    "year": "2023",
+    "featured": false,
+    "solution": [
+      {
+        "en": "Logo",
+        "ar": "الشعار"
+      },
+      {
+        "en": "Gradient color palette",
+        "ar": "الألوان المتدرجة"
+      },
+      {
+        "en": "Opening-offer designs",
+        "ar": "تصاميم عروض الافتتاح"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/basma.center2023",
+        "label": {
+          "en": "Basma Beauty Center on Facebook",
+          "ar": "صفحة المركز على فيسبوك"
+        }
+      }
+    ]
   }
 ]
