@@ -75,12 +75,12 @@ async function certifications(){
  const g=grid([]),n=h('p',{class:'mut small','aria-live':'polite'}),dlg=h('dialog',{'aria-label':ui('certifications')});
  dlg.addEventListener('click',e=>e.target===dlg&&dlg.close());
  const open=c=>{dlg.replaceChildren(h('button',{class:'btn sm',onclick:()=>dlg.close()},ui('close')),img(c.image,t(c.title),{loading:'eager'}),h('h2',{},t(c.title)),
-  h('dl',{},[['issuer',c.issuer],['date',c.date],['category',c.category],['credentialId',c.credentialId]].filter(x=>x[1]).flatMap(([k,v])=>[h('dt',{},ui(k)),h('dd',{},v)])),
+  h('dl',{},[['issuer',t(c.issuer)],['organizer',t(c.organizer)],['date',c.date],['category',c.category],['credentialId',c.credentialId]].filter(x=>x[1]).flatMap(([k,v])=>[h('dt',{},ui(k)),h('dd',{},v)])),
   c.description?h('p',{},t(c.description)):null,c.skills?.length?chips(c.skills):null,
   h('div',{class:'cta mt'},c.credentialUrl?ext(c.credentialUrl,'btn p',ui('verify')):null,c.image?ext(asset(c.image),'btn',ui('fullView')):null));dlg.showModal()};
- const draw=()=>{const q=st.q.toLowerCase(),a=all.filter(c=>(!st.cat||c.category===st.cat)&&(!q||[c.title,c.issuer,c.category,c.credentialId,...(c.skills||[])].map(t).join(' ').toLowerCase().includes(q))).sort(srt[st.sort]);
+ const draw=()=>{const q=st.q.toLowerCase(),a=all.filter(c=>(!st.cat||c.category===st.cat)&&(!q||[c.title,c.issuer,c.organizer,c.category,c.credentialId,...(c.skills||[])].map(t).join(' ').toLowerCase().includes(q))).sort(srt[st.sort]);
   n.textContent=all.length?`${a.length} / ${all.length}`:'';
-  a.length?paged(a,c=>h('button',{class:'card',onclick:()=>open(c)},img(c.image,t(c.title)),c.featured?h('span',{class:'badge'},ui('featured')):null,h('h3',{},t(c.title)),h('p',{class:'mut small'},[c.issuer,c.date].filter(Boolean).join(' · '))),g):g.replaceChildren(empty(all.length?ui('noResults'):ui('emptyCerts')))};
+  a.length?paged(a,c=>h('button',{class:'card',onclick:()=>open(c)},img(c.image,t(c.title)),c.featured?h('span',{class:'badge'},ui('featured')):null,h('h3',{},t(c.title)),h('p',{class:'mut small'},[t(c.issuer),c.date].filter(Boolean).join(' · ')),c.description?h('p',{class:'mut small'},t(c.description)):null),g):g.replaceChildren(empty(all.length?ui('noResults'):ui('emptyCerts')))};
  const cats=[...new Set(all.map(c=>c.category).filter(Boolean))];
  const bar=h('div',{class:'tools'},h('input',{type:'search','aria-label':ui('search'),placeholder:ui('search'),oninput:e=>{st.q=e.target.value;draw()}}),
   h('select',{'aria-label':ui('category'),onchange:e=>{st.cat=e.target.value;draw()}},h('option',{value:''},ui('all')),cats.map(c=>h('option',{value:c},c))),
