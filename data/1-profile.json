@@ -1,0 +1,119 @@
+{
+  "name": {
+    "en": "Belal Ayman Ahmed",
+    "ar": "بلال أيمن أحمد"
+  },
+  "professionalName": {
+    "en": "Engineer Belal Ayman Ahmed",
+    "ar": "مهندس بلال أيمن أحمد"
+  },
+  "tagline": {
+    "en": [
+      "Where Digital Growth ",
+      "Meets Cybersecurity."
+    ],
+    "ar": [
+      "حيث يلتقي النمو الرقمي ",
+      "بالأمن السيبراني."
+    ]
+  },
+  "moreTaglines": [
+    {
+      "en": "Building Secure Digital Futures.",
+      "ar": "نبني مستقبلًا رقميًا أكثر أمنًا."
+    },
+    {
+      "en": "Securing Technology. Empowering Brands.",
+      "ar": "نحمي التكنولوجيا، ونمكّن العلامات التجارية."
+    },
+    {
+      "en": "Cybersecurity • Strategy • Innovation",
+      "ar": "الأمن السيبراني • الاستراتيجية • الابتكار"
+    }
+  ],
+  "bio": {
+    "short": {
+      "en": "Digital Marketing Strategist | Social Media Management | Cybersecurity Researcher",
+      "ar": "استراتيجي تسويق رقمي | إدارة سوشيال ميديا | باحث في الأمن السيبراني"
+    },
+    "official": {
+      "en": "Digital Marketing Strategist | Social Media & Brand Strategy | Cybersecurity Researcher, Ethical Hacking & OSINT | Building Secure Digital Solutions",
+      "ar": "استراتيجي تسويق رقمي | إدارة السوشيال ميديا وبناء العلامات التجارية | باحث في الأمن السيبراني والاختبار الأخلاقي للاختراق واستخبارات المصادر المفتوحة (OSINT) | أعمل على تطوير حلول رقمية آمنة."
+    },
+    "medium": {
+      "en": "Digital Marketing Strategist helping startups and local businesses grow through social media management, paid campaigns, and brand identity, backed by hands-on cybersecurity research in ethical hacking, OSINT, and Linux.",
+      "ar": "استراتيجي تسويق رقمي أساعد الشركات الناشئة والمحلية على النمو عبر إدارة السوشيال ميديا والحملات الممولة وبناء الهوية التجارية، مدعومًا بخبرة بحثية عملية في الأمن السيبراني والاختبار الأخلاقي للاختراق واستخبارات المصادر المفتوحة ولينكس."
+    },
+    "long": {
+      "en": "I'm Belal Ayman Ahmed, from Alexandria. I finished secondary school in 2016, and since then I've chosen to follow the path I love, investing my time in learning and developing myself until my passion became a professional venture carrying my name and vision: EBAA. My journey began in cybersecurity, then moved into digital marketing, and today both come together in one practice.",
+      "ar": "أنا بلال أيمن أحمد، من الإسكندرية. أنهيت الثانوية العامة عام 2016، ومنذ ذلك الحين اخترت أن أسير في الطريق الذي أحبه، وأن أستثمر وقتي في التعلّم وتطوير نفسي، حتى حوّلت شغفي إلى مشروع مهني يحمل اسمي ورؤيتي: EBAA. بدأت رحلتي في الأمن السيبراني، ثم انتقلت إلى التسويق الرقمي، واليوم أجمع بين المجالين في كيان واحد."
+    }
+  },
+  "journeyStatement": {
+    "en": "This platform documents my journey, ideas, projects, and continuous learning.",
+    "ar": "وتمثل هذه المنصة توثيقًا لرحلتي، وأفكاري، ومشاريعي، وتطوري المستمر."
+  },
+  "journey": [
+    {
+      "title": {
+        "ar": "الأمن السيبراني",
+        "en": "Cybersecurity"
+      },
+      "period": {
+        "ar": "2016 – 2020",
+        "en": "2016 – 2020"
+      },
+      "text": {
+        "ar": "بدأت رحلتي بأساسيات الحاسوب والشبكات وأنظمة التشغيل ولينكس، ثم انتقلت إلى أمن المعلومات، والاختبار الأخلاقي للاختراق، وتحليل الثغرات، وحماية الأنظمة. درست خلال هذه المرحلة مسارات متخصصة في الشبكات والأمن السيبراني، من بينها CompTIA IT Fundamentals وNetwork+ وSecurity+، وCisco Networking Academy وCCNA Security، وشهادة Certified Ethical Hacker (CEH) من EC-Council. علّمني هذا المجال التفكير التحليلي، وفهم المخاطر، والتعامل مع التكنولوجيا بمنهجية ومسؤولية، وأن التطور الحقيقي يحتاج تعلّمًا مستمرًا وتطبيقًا عمليًا.",
+        "en": "I started with the fundamentals of computing, networking, operating systems and Linux, then moved into information security, ethical hacking, vulnerability analysis and system protection. In this phase I studied specialised networking and security tracks, including CompTIA IT Fundamentals, Network+ and Security+, Cisco Networking Academy and CCNA Security, and the Certified Ethical Hacker (CEH) credential from EC-Council. This field taught me analytical thinking, how to read risk, and how to work with technology methodically and responsibly, and that real progress needs continuous learning and hands-on practice."
+      }
+    },
+    {
+      "title": {
+        "ar": "التسويق الرقمي",
+        "en": "Digital Marketing"
+      },
+      "period": {
+        "ar": "2020 – 2025",
+        "en": "2020 – 2025"
+      },
+      "text": {
+        "ar": "في بدايات 2020 بدأت مرحلة جديدة مع التسويق الرقمي، وكانت دورات Google من أولى محطاتي في المجال. توسّعت دراستي لتشمل التسويق بالمحتوى، وتحسين محركات البحث (SEO)، والإعلانات المدفوعة، وتحليل البيانات، وبناء الاستراتيجيات التسويقية، وإدارة العلامات التجارية. من أبرز المسارات والشهادات في رحلتي: Google Digital Garage، وHubSpot Academy في التسويق بالمحتوى، وشهادات Google Ads وGoogle Analytics، وMeta Certified Digital Marketing Associate، وSemrush Academy في تحسين محركات البحث، وGoogle Digital Marketing & E-commerce، وMeta Blueprint، وأساسيات إدارة المشاريع من PMI. التسويق بالنسبة لي ليس مجرد تصميم منشور أو تشغيل إعلان، بل فهم للسوق والجمهور، وتخطيط، وتنفيذ، وتحليل للنتائج، بهدف تحقيق نمو حقيقي ومستدام.",
+        "en": "In early 2020 a new phase began with digital marketing, and Google's courses were among my first stops in the field. My studies widened to content marketing, search engine optimisation (SEO), paid advertising, data analysis, marketing strategy and brand management. The tracks and certificates in this phase include Google Digital Garage, HubSpot Academy in inbound and content marketing, Google Ads and Google Analytics certifications, Meta Certified Digital Marketing Associate, Semrush Academy for SEO, Google Digital Marketing & E-commerce, Meta Blueprint, and PMI's project management fundamentals. To me, marketing is not designing a post or running an ad; it is understanding the market and the audience, planning, executing and reading the results to achieve real, lasting growth."
+      }
+    },
+    {
+      "title": {
+        "ar": "تأسيس EBAA",
+        "en": "Founding EBAA"
+      },
+      "period": {
+        "ar": "2026",
+        "en": "2026"
+      },
+      "text": {
+        "ar": "بعد سنوات من التعلّم والتطوير في مجالين مختلفين ومتكاملين، قررت الانتقال من مرحلة تطوير المهارات إلى بناء علامتي التجارية: EBAA — Engineer Belal Ayman Ahmed. رؤيتي هي بناء كيان مهني يقدّم خدمات التسويق الرقمي، وإدارة صفحات التواصل الاجتماعي، وإعداد المحتوى، وبناء الهوية الرقمية، والإعلانات المدفوعة، والحلول الرقمية التي تساعد المشروعات على تطوير حضورها وتحقيق النمو.",
+        "en": "After years of learning and growth across two different but complementary fields, I decided to move from building skills to building my own brand: EBAA — Engineer Belal Ayman Ahmed. My vision is a professional practice that delivers digital marketing, social media management, content production, digital identity, paid advertising and digital solutions that help businesses grow their presence and their results."
+      }
+    }
+  ],
+  "experience": [],
+  "contact": {
+    "professional": {
+      "email": "engineerbelalaymanahmed@gmail.com",
+      "phone": "01026531399",
+      "whatsapp": "+20 102 653 1399",
+      "whatsappUrl": "https://wa.me/201026531399",
+      "telegram": "@Engineerbelalaymanahmed"
+    },
+    "payment": {
+      "vodafoneCash": "01026531399",
+      "instapay": "@belalaymanahmed"
+    }
+  },
+  "fullNameAr": "بلال ايمن احمد محمد محمد",
+  "birthDate": {
+    "en": "September 20, 1999",
+    "ar": "20 سبتمبر 1999"
+  }
+}
